@@ -1,0 +1,16 @@
+img{
+    max-width: 150px;
+    max-height: 200px
+}
+
+.basket{
+    position: relative;
+    padding: 0px 18px;
+    font-size: 24px;
+}
+
+.basket sup{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}

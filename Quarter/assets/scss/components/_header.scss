@@ -1,0 +1,129 @@
+header {
+  .header-top {
+    background-color: #0b2c3d;
+    height: 41px;
+
+    .container {
+      max-width: 1200px;
+      .row {
+        align-items: center;
+        .header-top-left {
+          ul {
+            display: flex;
+
+            li {
+              margin: 0 30px 0 0;
+              font-size: 14px;
+              font-weight: 700;
+              a {
+                color: #fff;
+
+                i {
+                  margin-right: 3px;
+                  color: #ff5a3c;
+                }
+              }
+            }
+          }
+        }
+        .header-top-right {
+          display: flex;
+          justify-content: flex-end;
+          ul {
+            display: flex;
+            align-items: center;
+            li {
+              margin: 0 30px 0 0;
+              font-size: 14px;
+              font-weight: 700;
+              margin-right: 30px;
+
+              a {
+                color: #fff;
+              }
+
+              .social-block {
+                li {
+                  margin-right: 14px;
+                }
+              }
+            }
+          }
+
+          .header-btn {
+            padding: 0 20px;
+            line-height: 40px;
+            background-color: #ff5a3c;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .header-main {
+    .container {
+      max-width: 1200px;
+      .row {
+        align-items: center;
+        padding: 20px 20px;
+        .site-logo {
+          display: flex;
+          align-items: center;
+          height: 100%;
+          a {
+            font-size: 30px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            display: contents;
+            color: #000;
+
+            img {
+              max-width: 100%;
+            }
+          }
+        }
+        .header-menu-col {
+          display: flex;
+          nav {
+            ul {
+              display: flex;
+              margin-bottom: 0px;
+              .menu-item {
+                margin-right: 20px;
+
+                a {
+                  color: #071c1f;
+                  font-size: 18px;
+                  padding: 20px 10px;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+
+        .search-sec {
+          display: flex;
+          justify-content: flex-end;
+          .header-search-btn {
+            margin-right: 10px;
+            .header-search {
+              height: 50px;
+              width: 50px;
+              line-height: 50px;
+              background: #fff;
+              text-align: center;
+              box-shadow: 2px 2px 150px grey;
+              .search-icon {
+                min-width: 25px;
+                text-align: center;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

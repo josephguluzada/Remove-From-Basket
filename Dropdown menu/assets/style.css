@@ -1,0 +1,45 @@
+.dropdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  background-color: grey;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ccc;
+  transform-origin: top;
+  transform: perspective(1000px) rotateX(-90deg);
+  transition: 0.9s;
+}
+
+ul.active {
+  transform: perspective(1000px) rotateX(0deg);
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background-color: #262626;
+  color: #fff;
+}
